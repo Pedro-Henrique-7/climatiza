@@ -43,7 +43,7 @@ header .logo h1{
 
 header .barra-pesquisa {
     display: flex;
-    margin-right: 952px;
+    margin-right: 711px;
 }
 
 header .barra-pesquisa input{
@@ -53,3 +53,61 @@ header .barra-pesquisa input{
     letter-spacing: 1px;
     text-indent: 5px;
 }
+
+
+
+main{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+
+.temperatura{
+    border: solid 1px black;
+    width: 916px;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    border-radius: 52px;
+    margin-left: 446px;
+}
+
+.temperatura button{
+    width: 256px;
+    height: 24px;
+    border-radius: 12px;
+    margin-top: 6px;
+}
+
+
+
+.infos{
+    border: solid 1px black;
+    width: 916px;
+    height: 396px;
+    display: flex;
+    justify-content: center;
+    gap: 157px;
+    align-items: center;
+    margin-top: 32px;
+    border-radius: 52px;
+    margin-left: 446px;
+}
+
+.qualidade-ar{
+    width: 380px;
+    border: solid 1px black;
+    height: 330px;
+    border-radius: 52px;
+}
+
+.min-max{
+    width: 380px;
+    border: solid 1px black;
+    height: 330px;
+    border-radius: 52px;
+}
+
