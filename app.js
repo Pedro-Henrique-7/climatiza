@@ -1,6 +1,6 @@
 'use strict'
 
-const API_KEY = '8199697d6dfc44d2b7a161407250610'
+const API_KEY = '2b79b176f76e46fa995161109252010'
 const URL_BASE = 'http://api.weatherapi.com/v1'
 
 const urlParams = new URLSearchParams()
