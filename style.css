@@ -57,6 +57,7 @@ header .barra-pesquisa input{
 
 
 main{
+    font-family: 'Nunito';
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -102,12 +103,35 @@ main{
     border: solid 1px black;
     height: 330px;
     border-radius: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}
+.qualidade-ar h3{
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 70px;
+    font-size: 36px;
+    font-weight: 100;
+    font-family: 'Nunito';
+
 }
 
-.min-max{
+.qualidade-ar img{
+    margin-left: 42px;
+    margin-top: 17px;
+}
+
+
+
+
+.termal-sensation{
     width: 380px;
     border: solid 1px black;
     height: 330px;
     border-radius: 52px;
+    font-family: 'Nunito';
 }
 
